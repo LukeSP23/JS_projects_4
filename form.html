@@ -3,26 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Form</title>
+
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <a href="form.html">Form</a>
     <a href="tasks.html">Tasks</a>
+
     <h1>Add a task</h1>
+
     <form>
       <label for="title">Title</label><br />
+
       <input type="text" id="title" name="title" /> <br /><br />
+
       <label for="description">Description</label><br />
-      <textarea
-        id="description"
-        name="description"
-        rows="5"
-        cols="33"
-      ></textarea
-      ><br /><br />
+
+      <textarea id="description" name="description" rows="5" cols="33">
+      </textarea>
+      <br /><br />
+
       <label for="category">Category</label><br />
+
       <input type="text" id="category" name="category" /><br /><br />
+
       <label for="priority_level">Priority Level</label><br />
+
       <select name="priority_level" id="priority_level">
         <option value="None">None</option>
         <option value="one">One</option>
@@ -33,9 +41,12 @@
         <option value="six">Six</option>
         <option value="seven">Seven</option>
         <option value="eight">Eight</option>
-        <option value="nine">Nine</option></select
-      ><br /><br />
+        <option value="nine">Nine</option>
+      </select>
+      <br /><br />
+
       <label for="progress_level">Progress_level</label><br />
+
       <select name="progress_level" id="progress_level">
         <option value="None">None</option>
         <option value="beginning">Beginning</option>
